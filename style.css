@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-color: #DECED2;
+    height: 100vh;
+    width: 99,8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner div{
+    color: #FFFFFF;
+    font-size: 70px;
+    line-height: 105px;
+    font-family: 'Great Vibes', cursiva;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+}
+.banner p{
+    font-size: 32px;
+    line-height: 38px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Great Vibes', cursiva;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 50px;
+}
+.banner img{
+    width: 350px;
+    height: 350px;
+}
+
+.div-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-coracao{
+    width: 50px;
+}
+.div-left{
+    display: flex;
+    align-items: center;
+}
+.div-ul ul{
+    list-style: none;
+    display: flex;
+}
+.div-ul ul li{
+    margin-right: 25px;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+aside div{
+    margin-right: 30px;
+    background-color: #5A081E;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding-top: 30px;
+    
+}
