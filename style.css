@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family= Dosis :wght@400;500 & display=swap');
 
@@ -275,7 +276,7 @@ aside div{
     border: 1px solid #5a081e;
 }
 #pagamento{
-    color: #212529;
+    color: #212529a6;
 }
 #pagamento:focus{
     color: #5a081e;
@@ -312,4 +313,45 @@ textarea{
 .div-email{
     margin-left: 55px;
     
+}
+/*   SECTION button            */
+.div-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.div-button button{
+    color: #5a081ee3;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--font-padrao);
+    font-weight: 500;
+    padding: 8px;
+    border: 1px solid #5a081e;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.div-button button:hover{
+    background-color: #5a081e;
+    color: #FFFFFF;
+}
+/*   SECTION footer            */
+.div-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.div-footer div{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--font-padrao);
+    font-weight: 400;
+    color: #212529c2;
+    font-family: var(--font-padrao);
+}
+.div-desen{
+    margin-bottom: 40px;
 }
