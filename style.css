@@ -115,9 +115,7 @@ aside div{
     color: rgba(255, 255, 255, 0.7);
 }
 /*   SECTION noivos            */
-section{
-    margin: auto;
-    width: 1400px;
+.section-descricao{
     margin-top: 150px;
 }
 .descricao-container{
@@ -126,6 +124,8 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: auto;
+    width: 1400px;
 }
 .div-descricao{
     margin-top: 50px;
@@ -167,13 +167,12 @@ section{
     text-align: justify;
 }
 /*   SECTION informações            */
-section{
+.section-eventos, .section-presentes{
+    background-color: #F8F9FA;
+}
+.eventos-container {
     margin: auto;
     width: 1400px;
-    margin-top: 100px;
-}
-.eventos-container{
-    text-align: center;
 }
 .eventos-container h3{
     font-size: 40px;
@@ -181,6 +180,10 @@ section{
     font-family: var(--font-destaque);
     color: #212529;
     font-weight: 500;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    margin-bottom: 35px;
 }
 .igreja{
     display: flex;
@@ -191,13 +194,122 @@ section{
     width: 16px;
     height: 16px;
 }
-.img-igreja{
-    width: 445px;
+.img-igreja, .img-recepcao{
+    width: 468px;
     height: 297px;
+}
+.img-recepcao{
+    margin-left: 8px;
 }
 .div-desc-local{
     margin-right: 40px;
 }
 .div-desc-local p{
+    font-family: var(--font-padrao);
+    font-size: 24px;
+    line-height: 29px;
+    color: #212529;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.link-loc{
+    font-family: var(--font-padrao);
+    font-size: 16px;
+    line-height: 24px;
+    color:#5a081e;
+    font-weight: 400;
+}
+.link-data, .link-loc{
+    margin-left: 5px;
+    text-decoration: none;
+}
+.link-loc:hover{
+    color:#f04d30;;
+}
+.link-data{
+    font-family: var(--font-padrao);
+    font-size: 16px;
+    line-height: 24px;
+    color: #6c757d;
+}
+.recepcao{
+    margin-top: 35px;
+}
+/*   SECTION PRESENTES            */
+.section-presentes{
+    padding-top: 200px;
+}
+.presentes-container{
+    margin: auto;
+    width: 1070px;
+    
+}
+.presentes-container h4{
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: var(--font-destaque);
+    color: #212529;
+    font-weight: 500;
+    padding-top: 100px;
+    margin-bottom: 60px;
+}
+.input-name{
+    width: 494px;
+    height: 37px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.input-name, textarea, .valor, #pagamento{
+    color: #5a081e;
+    border: 1px solid #6c757d62;
+    outline: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+.input-name:focus, textarea:focus, .valor:focus, #pagamento:focus{
+    border: 1px solid #5a081e;
+}
+#pagamento{
+    color: #212529;
+}
+#pagamento:focus{
+    color: #5a081e;
+}
+.div-name{
+    margin-bottom: 7px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #212529ab;
+    font-family: var(--font-padrao);
+}
+.div-inputs{
+    display: flex;
+}
+textarea{
+    width: 1044px;
+    height: 96px;
+}
+.valor, #pagamento{
+    width: 1044px;
+    height: 37px;
+}
+
+.paragrafo{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #212529ab;
+    font-family: var(--font-padrao);
+    width: 1070px;
+    margin-bottom: 20px;
+}
+.div-email{
+    margin-left: 55px;
     
 }
