@@ -273,7 +273,7 @@ aside div{
     margin-bottom: 7px;
 }
 .input-name:focus, textarea:focus, .valor:focus, #pagamento:focus{
-    border: 1px solid #5a081e;
+    border: 2px solid #5a081e;
 }
 #pagamento{
     color: #212529a6;
